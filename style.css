@@ -10,7 +10,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: .5em;
-	background: linear-gradient(to right, rgb(86, 81, 238), rgb(123, 243, 42)); /* Standard syntax */
+	background: linear-gradient(to right, rgb(238, 234, 176), rgb(198, 151, 197)); 
 }
 
 .container{

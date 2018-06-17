@@ -2,15 +2,14 @@ var h3 = document.querySelector("h3");
 var h2 = document.querySelector("h2");
 var body = document.getElementById("gradient");
 var button = document.getElementById("generator");
-var random1 = getRandomRgb();
-var random2 = getRandomRgb();
+
 
 function setGradient() {
 	body.style.background =
 	"linear-gradient(to right, "
-	+ random1
+	+ getRandomRgb()
 	+ ", "
-	+ random2
+	+ getRandomRgb()
 	+ ")";
 
 	h2.textContent = "Current CSS Background:";
@@ -28,8 +27,4 @@ function getRandomRgb() {
 
 
 
-button.addEventListener("click", setGradient, )
-
-// color1.addEventListener("input", setGradient);
-// Math.floor((Math.random() * 10) + 1)
-// color2.addEventListener("input", setGradient);
+button.addEventListener("click", setGradient)
